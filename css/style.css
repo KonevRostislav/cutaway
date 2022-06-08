@@ -9,10 +9,21 @@ body{
    font-family: 'Plus Jakarta Sans', sans-serif;
    font-weight: 700;
    font-size: 18px;
+   line-height: 26px;
 }
 .container{
    margin: 0 auto;
    max-width: 1200px;
+}
+.page{
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+ul{
+   padding: 0;
+   margin: 0;
 }
 a{
    text-decoration: none;
@@ -28,6 +39,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .header__block {
    display: flex;
+   align-items: center;
    justify-content: space-between;
 }
 .name {
@@ -63,12 +75,12 @@ h1,h2,h3,h4,h5,h6{
    width: 690px;
 }
 h1{
-   font-size: 22px;
+   font-size: 30px;
    line-height: 28px;
 }
 .intro-text {
    font-weight: 400;
-   font-size: 59px;
+   font-size: 29px;
    line-height: 76px;
 }
 .text-desc {
@@ -84,11 +96,30 @@ h1{
 
 }
 /* Intro End */
+/* About Start */
+.about__block {
+}
+.about__title {
+   font-size: 27px;
+}
+.about__subtitle {
+   font-size: 25;
+
+}
+.about__list {
+   text-transform: uppercase;
+}
+.contacts-nav {
+}
+/* About End */
 /* Footer Start */
 footer{
-   background-color: #1a536d;
+   background: linear-gradient(#2d88b2,#0e3142);
+   margin-top: auto;
 }
 .footer__block {
+   padding-top: 20px;
+   padding-bottom: 20px;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -101,9 +132,11 @@ footer{
 .footer-pages {
    font-weight: 400;
    font-size: 12px;
+   margin-right: 20px;
 }
 .contacts-nav{
    margin-right: 25px;
+   font-weight: 400;
 }
 .contacts-nav:last-child{
    margin-right: 0;

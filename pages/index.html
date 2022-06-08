@@ -1,73 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="../css/style.css">
-   <title>My cutaway</title>
+   <title>Mr.Goltsvert</title>
 </head>
 <body>
-   <!-- HeaderBlockStart -->
-   <header class="header">
-      <div class="container">
-         <div class="header__block">
-            <div>
-               <a href="#" class="name">Mr. Goltsvert</a>
-            </div>
-            <nav class="nav">
-               <ul class="nav-list">
-                  <li class="nav-pages"><a href="#" class="pages">home</a></li>
-                  <li class="nav-pages"><a href="about.html" class="pages">about</a></li>
-                  <li class="nav-pages"><a href="contact.html" class="pages">contact</a></li>
-               </ul>
-            </nav>
-         </div>
-      </div>
-   </header>
-   <!-- HeaderBlockEND -->
-   <main>
-   <!-- IntroBlockStart -->
-      <section class="intro">
+   <div class="page">
+      <!-- HeaderBlockStart -->
+      <header class="header">
          <div class="container">
-            <div class="intro__block">
-               <div class="intro__description">
-                  <h1>Rostislav Goltsvert, Frontend developer</h1>
-                  <p class="intro-text">
-                     I am the guy you come to when you <strong>need things done.</strong>
-                  </p>
+            <div class="header__block">
+               <div>
+                  <a href="#" class="name">Mr. Goltsvert</a>
+               </div>
+               <nav class="nav">
+                  <ul class="nav-list">
+                     <li class="nav-pages"><a href="#home" class="pages">Главная</a></li>
+                     <li class="nav-pages"><a href="#about" class="pages">Обо мне</a></li>
+                     <li class="nav-pages"><a href="#contact" class="pages">Контакты</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <!-- HeaderBlockEND -->
+      <main>
+      <!-- IntroBlockStart -->
+         <section id="home" class="intro">
+            <div class="container">
+               <div class="intro__block">
+                  <div class="intro__description">
+                     <h1>Rostislav Goltsvert, Frontend developer</h1>
+                     <p class="intro-text">
+                        Я тот парень, к которому ты приходишь, когда <strong>тебе нужно что-то сделать.</strong> 
+                     </p>
+                  </div>
+                  <div>
+                     <img class="intro__image" src="../image/IMAGE 2022-06-06 23:41:30.jpg" alt="my photo">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- IntroBlockEnd -->
+         <!-- AboutBlockStart -->
+         <section id="about" class="about">
+            <div class="container">
+               <div class="about__block">
+                  <h2 class="about__title">
+                     Обо мне
+                  </h2>
                   <p class="text-desc">
-                     I am Rostislav Goltsvert, beginner frontend developer. let's create beautiful things together.
+                     Меня зовут Ростислав, я начинающий <b>frontend</b> разработчик, который решил координально изменить свою жизнь.
                   </p>
+                  <h3 class="about__subtitle">
+                     Образование
+                  </h3>
+                  <ol class="footer-navlist">
+                     <li>Школьное образование</li>
+                     <li>Высшее образование</li>
+                     <li>Курс Skill Factory</li>
+                  </ol>
+                  <h3 class="about__subtitle">
+                     Опыт работы
+                  </h3>
+                  <ol class="footer-navlist">
+                     <li>2016 год - практика от университета</li>
+                     <li>2019 год по настоящее время</li>
+                  </ol>
+                  <h3 id="contact" class="about__subtitle">
+                     Контакты
+                  </h3>
+                  <ol class="footer-navlist about__list">
+                     <li><a class="contacts-nav" target="_blank" href="https://github.com/KonevRostislav">Github</a></li>                     
+                     <li><a class="contacts-nav" target="_blank" href="Instagramhttps://www.instagram.com">instagram</a></li>
+                     <li><a class="contacts-nav" target="_blank" href="https://t.me/joinchat/MODytUsx97TpPEpmtBt4Ng">telegram</a></li>
+                     <li><a class="contacts-nav" target="_blank" href="https://mail.ru">Email</a></li>
+                  </ol>
+               </div>
+            </div>
+         </section>
+         <!-- AboutBlockEnd -->
+      </main>
+      <!-- FooterBlockStart -->
+      <footer>
+         <div class="container">
+            <div class="footer__block">
+               <div class="footer__nav">
+                  <ul class="footer-navlist">
+                     <li><a href="#home" class="footer-pages">Главная</a></li>
+                     <li><a href="#about" class="footer-pages">Обо мне</a></li>
+                     <li><a href="#contact" class="footer-pages">Контакты</a></li>
+                  </ul>
                </div>
                <div>
-                  <img class="intro__image" src="../image/IMAGE 2022-06-06 23:41:30.jpg" alt="my photo">
+                  <a class="contacts-nav" target="_blank" href="https://github.com/KonevRostislav"> <img class="contacts" src="../image/25231.png" alt="Github"></a>
+                  <a class="contacts-nav" target="_blank" href="Instagramhttps://www.instagram.com"> <img class="contacts" src="../image/free-icon-font-camera-3917085.svg" alt="instagram"></a>
+                  <a class="contacts-nav" target="_blank" href="https://t.me/joinchat/MODytUsx97TpPEpmtBt4Ng"> <img class="contacts" src="../image/free-icon-font-paper-plane-3917628.svg" alt="telegram"></a>
+                  <a class="contacts-nav" target="_blank" href="https://mail.ru"> <img class="contacts" src="../image/95645.png" alt="Email"></a>
                </div>
             </div>
          </div>
-      </section>
-      <!-- IntroBlockEnd -->
-   </main>
-   <!-- FooterBlockStart -->
-   <footer>
-      <div class="container">
-         <div class="footer__block">
-            <div class="footer__nav">
-               <ul class="footer-navlist">
-                  <li><a href="#" class="footer-pages">Home</a></li>
-                  <li><a href="about.html" class="footer-pages">About</a></li>
-                  <li><a href="contact.html" class="footer-pages">Contacts</a></li>
-               </ul>
-            </div>
-            <div>
-               <a class="contacts-nav" target="_blank" href="https://github.com/KonevRostislav"> <img class="contacts" src="../image/25231.png" alt="Github">Gitgub</a>
-               <a class="contacts-nav" target="_blank" href=""> <img class="contacts" src="../image/free-icon-font-camera-3917085.svg" alt="instagram">Instagram</a>
-               <a class="contacts-nav" target="_blank" href=""> <img class="contacts" src="../image/free-icon-font-paper-plane-3917628.svg" alt="telegram">Telegram</a>
-            </div>
-         </div>
-      </div>
-   </footer>
-   <!-- FooterBlockEnd -->
+      </footer>
+      <!-- FooterBlockEnd -->
+   </div>
 </body>
 </html>
